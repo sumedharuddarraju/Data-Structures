@@ -30,11 +30,6 @@ int main()
         ptr->get_data();
         ptr->print_data();
     }
-    for(i=0;i<5;i++)
-    {
-        ptr->get_data();
-        ptr->print_data();
-    }
     return 0;
 }
 
