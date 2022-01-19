@@ -11,7 +11,7 @@ class a
         void f(int n)
         {
             x=n*5;
-            cout<<x<<endl;
+            cout<<"x = "<<x<<endl;
         }
 };
 class b : public a
@@ -21,7 +21,7 @@ class b : public a
         void f1(int n1)
         {
             x1=n1*5;
-            cout<<x1<<endl;
+            cout<<"x1 = "<<x1<<endl;
         }
 };
 class c:public b
@@ -31,7 +31,7 @@ class c:public b
         void f2(int n2)
         {
             x2=n2*5;
-            cout<<x2<<endl;
+            cout<<"x2 = "<<x2<<endl;
         }
 };
 int main()
